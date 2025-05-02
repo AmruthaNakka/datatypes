@@ -1,0 +1,7 @@
+# nested dictionary
+info={
+    'Amrutha':{"salary":120000,"perks":30000},
+    'Ammu':{"salary":180000,"perks":50000},
+}
+print(info['Ammu']['perks'])
+print(info['Amrutha']['perks'])
