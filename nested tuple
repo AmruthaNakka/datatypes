@@ -1,0 +1,7 @@
+# nested tupple
+nest=((1,2),(3,4),(5,6))
+print(nest[1])
+# nested 1tupple
+nest1=((1,2),('a',7),(5,6))
+print(nest1[1])
+print(nest1[1][0])
