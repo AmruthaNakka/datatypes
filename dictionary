@@ -1,0 +1,16 @@
+# dictionary operations
+person={'name':'Amrutha','age':'21','city':'Vissannapeta'}
+print(person)
+print("accsessing and modifying the person age:")
+person["age"]=20
+print(person)
+print("Adding and removing items")
+person['email']='amruthanakka2631@gmail.com'
+print(person)
+del person['city']
+print(person)
+print("All keys & values")
+print(person.keys())
+print(person.values())
+print(person.items())
+print(person.get("age"))
